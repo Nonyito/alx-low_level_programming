@@ -1,11 +1,13 @@
 #include <stdio.h>
-/* main is Entry point
+
+/**
+ * main - Entry point
  *
- * Retrun (0) Always (Success)
+ * Retrun: Always 0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
+	//puts prints string
 	return(0);
 }
