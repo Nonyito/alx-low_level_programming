@@ -19,7 +19,7 @@ int main(void)
 		n++;
 	}
 
-	char n = 'A';
+	n = 'A';
 
 	while (n <= 'Z')
 	{
