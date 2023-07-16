@@ -22,7 +22,6 @@ int main(void)
 			if (i != '9' || n != '9')
 			{
 				putchar(',');
-				putchar(' ');
 			}
 		}
 	}
