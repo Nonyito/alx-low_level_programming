@@ -1,13 +1,15 @@
 #include <stdio.h>
 
 /**
- * print_alphabet - while loop
+ * main - while loop
  *
  * Description: prototype, while loop printing alphabet
  * Return: it is always 0
  */
 
-void print_alphabet(void)
+void print_alphabet(void);
+
+int main(void)
 {
 	char let = 'a';
 
