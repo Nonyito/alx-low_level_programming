@@ -15,12 +15,10 @@ int print_last_digit(int num)
 	if (numlas < 0)
 	{
 		numlas *= -1;
-		_putchar(numlas);
 		return (numlas);
 	}
 	else
 	{
-		_putchar(numlas);
 		return (numlas);
 	}
 }
