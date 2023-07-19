@@ -15,7 +15,7 @@ int main(void)
 	return (0);
 }
 
-int main(void)
+void print_alphabet(void)
 {
 	char let = 'a';
 
@@ -25,5 +25,4 @@ int main(void)
 		let++;
 	}
 	putchar('\n');
-	return (0);
 }
