@@ -8,20 +8,19 @@
  * Return: it is 0
  */
 
-int main(void)
+void print_alphabet_x10(void)
 {
-	int n = 0;
+	char let = 'a';
 	int i;
 
-	while (n <= 10)
+	for ( i = 0; i < 10; i++)
 	{
-		for (i = 'a'; i <= 'z'; i++)
+		while (let <= 'z')
 		{
-			putchar(i);
+			putchar(let);
+			let++;
 		}
-		putchar(n);
-		n++;
+		c = 'a';
+		putchar('\n');
 	}
-	putchar('\n');
-	return (0);
 }
