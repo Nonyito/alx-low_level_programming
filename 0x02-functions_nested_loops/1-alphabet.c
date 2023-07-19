@@ -1,21 +1,17 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet - while loop
+ * print_alphabet - prints alphabets in lowcase
  *
- * Description: prototype, while loop printing alphabet
- * Return: it is always 0
  */
 
 void print_alphabet(void)
 {
-	char let = 'a';
+	char l;
 
-	while (let <= 'z')
+	for (l = 'a'; l <= 'z'; l++)
 	{
-		putchar(let);
-		let++;
+		putchar(l);
 	}
 	putchar('\n');
 }
