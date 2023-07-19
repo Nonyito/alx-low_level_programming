@@ -10,7 +10,7 @@
 
 int print_last_digit(int num)
 {
-	int numlas = num % 10;
+	int numlas = num % 100;
 
 	if (numlas < 0)
 	{
