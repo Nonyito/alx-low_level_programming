@@ -7,15 +7,15 @@
  * Return: 
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	if (int < 0)
+	if (num < 0)
 	{
-		int = (-1) * int;
-		_putchar(int);
+		num = (-1) * num;
+		_putchar(num);
 	}
 	else
 	{
-		_putchar(int);
+		_putchar(num);
 	}
 }
