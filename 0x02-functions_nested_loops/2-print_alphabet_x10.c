@@ -10,6 +10,7 @@
 int main(void)
 {
 	int n = 0;
+	int i;
 
 	while (n <= 10)
 	{
