@@ -1,22 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - while loop
+ * print_alphabet - while loop
  *
  * Description: prototype, while loop printing alphabet
  * Return: it is always 0
  */
 
-void print_alphabet(void);
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
-void alphabet(void)
+void print_alphabet(void)
 {
 	char let = 'a';
 
