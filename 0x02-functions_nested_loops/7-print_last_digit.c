@@ -13,7 +13,14 @@ int print_last_digit(int num)
 	int numlas = num % 10;
 
 	if (numlas < 0)
+	{
 		numlas *= -1;
 		_putchar(numlas);
 		return (numlas);
+	}
+	else
+	{
+		_putchar(numlas);
+		return (numlas);
+	}
 }
