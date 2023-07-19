@@ -9,15 +9,21 @@
 
 void print_alphabet(void);
 
-int main(void)
+int main(main)
+{
+	print_alphabet();
+	return (0);
+}
+
+void print_alphabet(void)
 {
 	char let = 'a';
 
-	while (let < 'z')
+	while (let <= 'z')
 	{
 		putchar(let);
 		let++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
