@@ -15,6 +15,5 @@ int add(int num1, int num2)
 	int anw;
 
 	anw = num1 + num2;
-	_putchar(anw);
-	return (0);
+	return (anw);
 }
