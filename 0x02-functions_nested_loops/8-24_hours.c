@@ -9,6 +9,9 @@
 
 void jack_bauer(void)
 {
+	int hrs;
+	int mns;
+
 	for (hrs = 0; hrs < 24; hrs++)
 	{
 		for (mns = 0; mns < 60; mns++)
