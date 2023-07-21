@@ -12,6 +12,9 @@
 int mul(int a, int b);
 {
 	int anwr;
+
 	anwr = a * b;
-	return (anwr);
+
+	_putchar(anwr);
+	return (0);
 }
