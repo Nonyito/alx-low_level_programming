@@ -15,6 +15,6 @@ int mul(int a, int b);
 
 	anwr = a * b;
 
-	_putchar(anwr);
+	putchar("%d", anwr);
 	return (0);
 }
