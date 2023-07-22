@@ -3,7 +3,7 @@
 /**
  * print_triangle - printing trianlges
  *
- * @sizi: input value
+ * @size: input value
  * Return: is 0
  */
 
