@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - using if else fizz buzz
@@ -14,21 +15,21 @@ int main(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			putchar("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz ");
+			putchar("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz ");
+			putchar("Buzz ");
 		}
 		else
 		{
-			printf("%d ", i);
+			putchar("%d ", i);
 		}
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
