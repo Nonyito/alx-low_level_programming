@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - using if else fizz buzz
@@ -6,7 +6,7 @@
  * Return: it is 0
  */
 
-int fizzbuzz(void)
+int main(void)
 {
 	int i;
 
@@ -14,21 +14,25 @@ int fizzbuzz(void)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
-			_putchar("FizzBuzz ");
+			printf("FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			_putchar("Fizz ");
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar("Buzz ");
+			printf("Buzz ");
 		}
 		else
 		{
-			_putchar("%d ", i);
+			printf("%d ", i);
+		}
+		if (i != 100)
+		{
+			printf(" ");
 		}
 	}
-	_putchar("\n");
+	printf("\n");
 	return (0);
 }

@@ -22,5 +22,5 @@ void print_diagonal(int n);
 
 void print_square(int size);
 
-int fizzbuzz(void);
+int main(void);
 #endif
