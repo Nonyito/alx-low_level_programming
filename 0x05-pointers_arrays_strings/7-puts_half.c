@@ -9,7 +9,8 @@
 
 void puts_half(char *str)
 {
-	int l = (strlen(str) + 1) / 2;
+	int leng = strlen(str);
 
-	_putchar("%s\n", &str[l]);
+	int begin = (leng % 2 == 0) ? leng / 2 : (leng + 1) / 2;
+	_putchar("%s\n", str + start_index);
 }
