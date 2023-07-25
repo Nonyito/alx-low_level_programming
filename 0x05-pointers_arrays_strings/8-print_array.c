@@ -12,13 +12,15 @@ void print_array(int *a, int n)
 {
 	int i;
 	int num;
+	int dig;
 
 	for (i = 0; i < n; i++)
 	{
 		num = a[i];
 		do
 		{
-			_putchar(num % 10 + '0');
+			dig = num % 10;
+			_putchar(dig + '0');
 			num /= 10;
 		}
 		while (num != 0);
