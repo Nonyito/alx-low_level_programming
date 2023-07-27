@@ -3,8 +3,8 @@
 /**
  * *_strncpy - copying a string
  *
- * @*dest: input string
- * @*str: input string
+ * @dest: input string
+ * @src: input string
  * @n: number
  * Return: it is l
  */
@@ -23,5 +23,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[i] = '\0';
 		i++;
 	}
-	return dest;
+	return (dest);
 }
