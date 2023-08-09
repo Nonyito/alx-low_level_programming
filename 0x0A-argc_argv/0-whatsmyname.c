@@ -10,9 +10,12 @@
 
 int main(int argc, char* argv[])
 {
-	while(argv != '\0')
+	char *name = argv[0];
+
+	while(*name != '\0')
 	{
-		_putchar("%s\n", argv++);
+		_putchar(*name++);
 	}
+	_putchar('\n');
 	return (0);
 }
