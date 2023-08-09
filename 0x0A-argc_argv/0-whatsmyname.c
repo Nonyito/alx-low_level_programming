@@ -11,6 +11,7 @@
 int main(int argc, char* argv[])
 {
 	char *name = argv[0];
+	_putchar(argc);
 
 	while(*name != '\0')
 	{
