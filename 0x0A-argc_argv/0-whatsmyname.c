@@ -10,12 +10,17 @@
 
 int main(int argc, char* argv[])
 {
-	char *proname = argv[0];
+	int i;
 
-	while (*proname != '\0')
+	for (i = 0; i < argc; i++)
 	{
-		_putchar(*proname);
-		proname++;
+		char *proname = argv[i];
+
+		while (*proname != '\0')
+		{
+			_putchar(*proname);
+			proname++;
+		}
 	}
 	_putchar('\n');
 	return (0);
