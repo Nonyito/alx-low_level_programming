@@ -12,9 +12,9 @@ void print_name(char *name, void (*f)(char *))
 {
 	while (*name)
 	{
-		_putchar(*name);
+		putchar(*name);
 		name++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	f(name);
 }
